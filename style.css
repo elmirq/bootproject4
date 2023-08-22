@@ -179,7 +179,7 @@ animation-name:cart;
 
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 400px){
 
     @keyframes sa{
         0%{ right:400px;}
@@ -187,6 +187,10 @@ animation-name:cart;
         
         
         }
+.nerv{
+width: 20%;
+height: 30px;
+}
 
 }
 
