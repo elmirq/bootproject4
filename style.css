@@ -162,7 +162,7 @@ height: 40px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-animation-duration: 2s;
+animation-duration: 1s;
 animation-name:cart;
 
 }
@@ -173,12 +173,22 @@ animation-name:cart;
 }
 
 @keyframes sa{
-0%{ right:1920px;}
+0%{ right:2000px;}
 100%{ right: 0px;}
 
 
 }
 
+@media only screen and (max-width: 600px){
+
+    @keyframes sa{
+        0%{ right:400px;}
+        100%{ right: 0px;}
+        
+        
+        }
+
+}
 
 
 
