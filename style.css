@@ -80,6 +80,7 @@ color: yellow;
 
 .nav-link{
 color: rgba(240, 240, 0, 0.836);
+transition: 0.2s;
 animation-duration: 2s;
 animation-name:cart;
 }
@@ -129,6 +130,13 @@ animation-name:cart;
 width: 20%;
 height: 30px;
 }
+
+}
+
+.nav-link:hover{
+    color: yellow;
+    transform: scale(1.02);
+
 
 }
 
