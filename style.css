@@ -22,8 +22,8 @@ width: 45%;
 margin-left: 4%;
 filter: brightness(30%);
 transform: scale(0.7);
-background-color: rgba(56, 56, 56, 0.815);
-background-size: contain;
+background-color: transparent;
+background-size: cover;
 -webkit-background-clip: content-box;
 
 
@@ -76,7 +76,7 @@ color: black;
     background-image: url(Leman.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .dinara{
     width: 100%;
@@ -84,7 +84,7 @@ color: black;
     background-image: url(Dinara.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+      background-size: 100% 100%;
 }
 .zakir{
     width: 100%;
@@ -92,7 +92,7 @@ color: black;
     background-image: url(Zakir.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .elmir{
     width: 100%;
@@ -108,7 +108,7 @@ color: black;
     background-image: url(Kevin.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .xeyal{
     width: 100%;
@@ -116,7 +116,7 @@ color: black;
     background-image: url(Xeyal.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 
@@ -151,7 +151,7 @@ animation-name:cart;
 
 .navbar{
 background-color: rgba(15, 15, 15, 0.5);
-animation-duration: 2s;
+animation-duration: 0.6s;
 animation-name: sa;
 }
 
@@ -162,7 +162,7 @@ height: 40px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-animation-duration: 1s;
+animation-duration: 0.6s;
 animation-name:cart;
 
 }
@@ -201,13 +201,14 @@ margin-top: 100px;
 }
 
 
+.img-thumbnail{
+background-color: yellow;
+color: yellow;
+
+}
 
 
 
 
 
 
-
-
-width: 45%;
-margin-left: 4%;
