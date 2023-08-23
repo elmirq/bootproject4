@@ -22,7 +22,7 @@ background-color: black;
 }
 
 .card-img-top{
-filter: brightness(30%);
+filter: brightness(50%);
 transform: scale(1);
 
 }
@@ -101,15 +101,11 @@ height: 40px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-animation-duration: 0.4s;
-animation-name:cart;
+animation-duration: 0.7s;
+animation-name: sa;
 
 }
 
-@keyframes cart{
-0%{  transform: scale(0.3); }
-100%{  transform: scale(1); }
-}
 
 @keyframes sa{
 0%{ right:2000px;}
